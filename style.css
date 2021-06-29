@@ -1,0 +1,116 @@
+* {
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+
+}
+
+.background {
+   
+    background-image: url("/Annexes/background.jpg");
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.head{
+    display: flex;
+    height: 50px;
+    max-width: 1000%;
+    justify-content: center;
+    padding-top: 30px;
+    color: white;
+    font-weight: 80px;
+}
+.headsub{
+        display: flex;
+        height: 100px;
+        max-width: 100%;
+        justify-content: center;
+        margin-top: 60px;
+        color: white;
+        font-size: 20px;
+} 
+.date{
+    max-width: 30%;
+    margin-top: 16px;
+}
+.date-sub{
+    align-items:center;
+    justify-content: space-evenly;
+background-color: lightgray;
+opacity: 0.9;
+
+;}
+
+
+.card-header {
+    display: flex;
+    justify-content:center;
+    height: 50px;
+    align-items:center;
+    margin-top: 250px;
+    
+}
+.card-body {    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    max-width: 1100px;
+    height: 50px;
+    align-items: center;
+    border: 2px solid black;
+    background-color: lightcyan;
+}
+
+.nav-car {
+    padding-top:50px ;
+    justify-content: space-between;
+    
+}
+.img-foot{
+    width: 200px;
+}
+
+.car1 {
+    padding: 8%;
+}
+
+.foot{
+    display: flex;
+    justify-content: center;
+    padding-left: 350px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.navbar-nav {
+    color: black;
+}
+
+@media (max-width: 768px) {
+    #text-car {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
